@@ -1,6 +1,8 @@
 # Nando's Design System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+<img src="./assets/output.png">
 
 ## Installation
 
