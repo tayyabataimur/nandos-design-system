@@ -14,7 +14,7 @@ type Story = StoryObj<typeof Modal>;
 
 export const Primary: Story = {
   args: {
-    heading: "This is a modal",
+    heading: "Modal title",
     children:
       "This placeholder component can be replaced with your own local component.",
   },
