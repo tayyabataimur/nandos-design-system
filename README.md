@@ -40,4 +40,4 @@ The primary component in this design system, the modal, can benefit from the fol
 2. Improved Storybook documentation. At the moment, the auto-generated documentation for the Modal component in Storybook is buggy in terms of the rendered UI. 
 
 3. Extract ModalHeader and ModalBody into separate components that developers can use to make the modal UI with much more flexibility. 
-# nandos-design-system
+
