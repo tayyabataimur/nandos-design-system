@@ -1,0 +1,42 @@
+.iconButton {
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+
+.iconButton:hover {
+  background: #ff00b4;
+}
+
+.iconButton:hover svg path,
+.iconButton:active svg path {
+  fill: #ffffff;
+}
+
+.iconButton:focus {
+  outline: 2px solid #ff00b4;
+}
+
+.iconButton:active {
+  background: #e6007d;
+  outline: none;
+}
+
+.iconButton.disabled {
+  cursor: auto;
+}
+
+.iconButton.disabled:hover,
+.iconButton.disabled:active {
+  background: none;
+}
+
+.iconButton.disabled svg path {
+  fill: #505050;
+}
